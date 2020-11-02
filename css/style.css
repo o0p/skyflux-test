@@ -68,6 +68,16 @@ img {
 .showcase {
     height: 400px;
     background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
 }
 
 /* Utilities */
@@ -87,4 +97,17 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+
 }
