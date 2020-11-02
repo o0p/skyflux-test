@@ -180,3 +180,31 @@ img {
 .languages .card:hover {
     transform: translateY(-16px);
 }
+
+/* footer */
+.footer .social a {
+    margin: 0 10px;
+}
+
+/* Tablets and under */
+@media(max-width: 768px) {
+    
+}
+
+
+/* Mobile*/
+@media(max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+      flex-direction: column;
+  }
+
+  .navbar ul {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+
+}
