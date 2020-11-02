@@ -188,7 +188,14 @@ img {
 
 /* Tablets and under */
 @media(max-width: 768px) {
-    
+    .grid,
+    .showcase .grid,
+    .stats .grid,
+    .cli .grid,
+    .cloud .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 
 
