@@ -43,6 +43,12 @@ img {
     width: 100%;
 }
 
+code, pre {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
 .navbar {
     background-color: var(--primary-color);
     color: #fff;
@@ -182,6 +188,7 @@ img {
 }
 
 /* Features */
+.docs-head img,
 .features-head img {
     width: 200px;
     justify-self: flex-end;
@@ -203,6 +210,26 @@ img {
     grid-column: 1 / span 2;
 }
 
+/* Docs */
+.docs-main h3 {
+    margin: 20px 0;
+}
+
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+
+.docs-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.docs-main li:hover {
+    font-weight: bold;
+}
 
 /* footer */
 .footer .social a {
